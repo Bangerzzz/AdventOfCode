@@ -61,7 +61,7 @@ public class Monkey {
             }
             inspections++;
 
-            item = Math.floorDiv(item, 3);
+            item %= 9699690;
 
             if (item % test == 0) {
                 monkeyMap.get(trueValue).addItem(item);
