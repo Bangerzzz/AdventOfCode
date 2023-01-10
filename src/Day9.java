@@ -16,7 +16,7 @@ public class Day9 {
     public static void main(String[] args) throws Exception{
         
         @SuppressWarnings("resource")
-		BufferedReader br = new BufferedReader(new FileReader("inputs/day9.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/Day9.txt"));
 
         String line;
         while ((line = br.readLine()) != null) {

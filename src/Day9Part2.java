@@ -18,7 +18,7 @@ public class Day9Part2 {
         Arrays.fill(posRopY, 500);
         
         @SuppressWarnings("resource")
-		BufferedReader br = new BufferedReader(new FileReader("inputs/day9.txt"));
+		BufferedReader br = new BufferedReader(new FileReader("inputs/Day9.txt"));
 
         String line;
         while ((line = br.readLine()) != null) {
